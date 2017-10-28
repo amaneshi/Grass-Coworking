@@ -1,0 +1,160 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button {
+    box-sizing: border-box;
+}
+
+.clear-fix:after {
+    content: '';
+    display: table;
+    width: 100%;
+}
+
+.content-wrapper {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.header {
+    background: white;
+    padding-top: 10px;
+}
+
+.header-main {
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.city-selector {
+    font-family: Hind-Regular, 'Sans Serif', cursive;
+    padding-left: 15px;
+    border: 0 none;
+    font-size: 14px;
+    color: white;
+    overflow: hidden;
+    width: 130px;
+    height: 35px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: url("./../imgs/arrow.png") no-repeat scroll 105px 16px black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.base-info {
+    float: left;
+    margin-right: 30px;
+}
+
+.base-info p {
+    margin: 0;
+    padding: 8px;
+    font-size: 14px;
+    font-family: Hind-Regular, 'Sans Serif', cursive;
+    
+}
+
+.menu-base {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu-base li {
+    float: left;
+    display: block;
+}
+
+.header-attributes {
+    float: left;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.header-attributes p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.header-attributes p:first-child {
+    font-weight: bold;
+    font-family: Hind-Bold, 'Sans Serif Bold', cursive;
+}
+
+.header-attributes p:last-child {
+    color: #7a7a7a;
+    font-family: Hind-Regular, 'Sans Serif', cursive;
+    padding-left: 35px;
+}
+
+.header-attributes .fa {
+    padding-right: 18px;
+}
+
+nav li {
+    margin: 20px 30px 20px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Hind-Medium, "Sans Serif", cursive;
+    font-size: 16px;
+}
+
+.section {
+    background-color: rgb( 0, 0, 0, 0.85);
+}
+
+section {
+    background: url("./../imgs/Section-1-BG.png") no-repeat scroll right black;;
+    height: 640px;
+}
+
+.search {
+    color: white;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.social-icons i.fa {
+    margin-left: 20px;
+    padding: 12px 0;
+    color: black;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: Hind-Regular;
+    src: url(./../fonts/Hind-Regular.ttf);
+}
+
+@font-face {
+    font-family: Hind-Bold;
+    src: url(./../fonts/Hind-Bold.ttf);
+}
+
+@font-face {
+    font-family: Hind-Medium;
+    src: url(./../fonts/Hind-Medium.ttf);
+}
+
+@font-face {
+    font-family: Dharma-ExBoldItalic;
+    src: url(./../fonts/DharmaGothicE_ExBold_I.otf);
+}
