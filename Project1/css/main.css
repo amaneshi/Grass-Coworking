@@ -11,6 +11,7 @@ div, p, input, button {
     content: '';
     display: table;
     width: 100%;
+    clear: both;
 }
 
 .content-wrapper {
