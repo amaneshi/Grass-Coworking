@@ -24,6 +24,10 @@ div, p, input, button {
     padding-top: 10px;
 }
 
+.header-top {
+    background-color: #ededed;
+}
+
 .header-main {
     padding-top: 45px;
     padding-bottom: 30px;
