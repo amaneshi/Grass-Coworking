@@ -35,7 +35,7 @@ div, p, input, button {
 
 .header-center {
     background-color: white;
-    padding: 32px 0;
+    padding: 29px 0;
 }
 
 .content-wrapper {
@@ -55,7 +55,7 @@ div, p, input, button {
 .city {
     font-family: Hind-Regular, 'Sans Serif', cursive;
     background: #212121;
-    color: #f0f0f0;
+    color: #fff;
     padding: 8px 16px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -113,7 +113,6 @@ div, p, input, button {
 
 .header-bottom {
     background-color: rgba(0, 0, 0, 0.85);
-    padding: 22px 0;
     position: absolute;
     width: 100%;
 }
@@ -123,6 +122,8 @@ div, p, input, button {
     text-decoration: none;
     text-transform: uppercase;
     padding: 0 15px;
+    font-size: 16px;
+    font-family: Hind-Medium, 'Sans Serif', cursive;
 }
 
 .menu {
@@ -131,13 +132,13 @@ div, p, input, button {
 
 .section {
     background: url("./../imgs/Section-1-BG.png") no-repeat scroll right black;;
-    height: 640px;
+    height: 751px;
 }
 
 .search {
     color: white;
     font-size: 20px;
-/ / padding: 20 px 0;
+    padding: 22px 0;
 }
 
 @font-face {
@@ -160,65 +161,16 @@ div, p, input, button {
     src: url(../fonts/hind/Hind-Semibold.ttf);
 }
 
-/*
-
-.clear-fix:after {
-    content: '';
-    display: table;
-    width: 100%;
-    clear: both;
+.navigation li {
+    border-bottom: solid 6px rgba(0, 0, 0, 0);
+    padding: 21px 0 15px;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
 }
 
-.menu-base {
-    padding: 0;
-    margin: 0;
-    display: block;
+.navigation li:hover {
+    border-bottom: solid 6px red;
 }
 
-.menu-base li {
-    float: left;
-    display: block;
-}
-
-.header-attributes {
-    float: left;
-    margin-left: 60px;
-    margin-top: 15px;
-}
-
-.header-attributes p {
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-}
-
-
-nav li {
-    margin: 20px 30px 20px 0;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: Hind-Medium, "Sans Serif", cursive;
-    font-size: 16px;
-}
-
-
-
-.search {
-    color: white;
-    font-size: 20px;
-    padding: 20px 0;
-}
-
-.social-icons i.fa {
-    margin-left: 20px;
-    padding: 12px 0;
-    color: black;
-    font-size: 14px;
-}
-
-
-*/
