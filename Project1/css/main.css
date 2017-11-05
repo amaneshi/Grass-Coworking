@@ -19,7 +19,7 @@ div, p, input, button {
     box-sizing: border-box;
 }
 
-.social-icons a:hover{
+.social-icons a:hover {
     color: white;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -39,7 +39,7 @@ div, p, input, button {
 }
 
 .content-wrapper {
-    max-width: 1150px;
+    max-width: 1115px;
     margin: 0 auto;
 }
 
@@ -67,7 +67,7 @@ div, p, input, button {
 }
 
 .inline-menu > li {
-    list-style: none;
+    /*list-style: none;*/
     display: inline-block;
 }
 
@@ -113,25 +113,20 @@ div, p, input, button {
 .header-bottom {
     background-color: rgba(0, 0, 0, 0.85);
     position: absolute;
-    width: 100%;
+    right: 0;
+    left: 0;
+    z-index: 99;
 }
 
 .navigation a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0 15px;
     font-size: 16px;
+    display: inline-block;
+    position: relative;
     font-family: Hind-Medium, 'Sans Serif', cursive;
-}
-
-.menu {
-    padding: 4px 0;
-}
-
-.section {
-    background: url("./../imgs/Section-1-BG.png") no-repeat scroll right black;;
-    height: 751px;
+    padding: 24px 15px;
 }
 
 .search {
@@ -160,16 +155,173 @@ div, p, input, button {
     src: url(../fonts/hind/Hind-Semibold.ttf);
 }
 
-.navigation li {
-    border-bottom: solid 6px rgba(0, 0, 0, 0);
-    padding: 21px 0 15px;
+.navigation .current-page a:before {
+    width: 100%;
+    left: 0;
+}
+
+.navigation a:before {
+    content: '';
+    position: absolute;
+    height: 6px;
+    width: 0;
+    bottom: 0;
+    background: #bd2631;
+    left: 50%;
     -webkit-transition: all .7s ease-in-out;
     -moz-transition: all .7s ease-in-out;
     -o-transition: all .7s ease-in-out;
     transition: all .7s ease-in-out;
 }
 
-.navigation li:hover {
-    border-bottom: solid 6px red;
+.navigation a:hover:before {
+    width: 100%;
+    left: 0;
 }
 
+.section {
+    background: #000;
+}
+
+.slides {
+    padding: 0;
+    /*width: 609px;*/
+    height: 750px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide-container {
+    display: block;
+}
+
+.slide {
+    top: 0;
+    right: 0;
+    opacity: 0;
+    height: 750px;
+    width: 100vw;
+    display: block;
+    position: absolute;
+
+    transform: translateX(-1000px);
+
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    height: 100%;
+}
+
+.nav label {
+    width: 136px;
+    display: none;
+    position: absolute;
+
+    opacity: .3;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 70px;
+    text-align: center;
+    top: calc(50% - 70px);
+    /*background-color: rgba(255, 255, 255, .3);*/
+    text-shadow: 0 0 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label {
+    opacity: 0.5;
+}
+
+.nav label:hover {
+    opacity: 1;
+}
+
+.nav .next {
+    right: 0;
+}
+
+input:checked + .slide-container .slide {
+    opacity: 1;
+
+    transform: translateX(0);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label {
+    display: block;
+}
+
+.nav-dots {
+    width: 100%;
+    bottom: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+.nav-dots .nav-dot {
+    top: -5px;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    position: relative;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#slide-1:checked ~ .nav-dots label#slide-dot-1,
+input#slide-2:checked ~ .nav-dots label#slide-dot-2,
+input#slide-3:checked ~ .nav-dots label#slide-dot-3 {
+    background: rgba(255, 255, 255, .8);
+}
+
+.slide h2 {
+    color: red;
+    font-size: 32px;
+    font-family: Hind-Bold, 'Sans Serif Bold', cursive;
+    position: absolute;
+    top: calc(50% - 91px);
+}
+
+.slide h1 {
+    color: #fff;
+    font-size: 43px;
+    font-family: Hind-Semibold, 'Sans Serif', cursive;
+    position: absolute;
+    top: calc(50% - 53px);
+}
+
+.slide p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: Hind-Medium, 'Sans Serif', cursive;
+    position: absolute;
+    top: calc(50% + 10px);
+}

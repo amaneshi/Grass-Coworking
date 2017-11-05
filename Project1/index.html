@@ -79,10 +79,12 @@
         </div>
         <div class="header-bottom">
             <div class="content-wrapper clearfix">
-                <div class="lfloat menu">
+                <div class="lfloat main-menu">
                     <nav>
                         <ul class="navigation inline-menu">
-                            <li><a href="#">Home</a></li>
+                            <li class="current-page">
+                                <a href="#">Home</a>
+                            </li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Products</a></li>
                             <li><a href="#">Services</a></li>
@@ -104,8 +106,61 @@
 
 <section>
     <div class="section">
-        <div class="content-wrapper">
-        </div>
+        <ul class="slides">
+            <input type="radio" name="radio-btn" id="slide-1" checked/>
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="./imgs/section-1-bg.png" align="right"/>
+                    <div class="content-wrapper">
+                        <h2>We provide innovative</h2>
+                        <h1>Battery back-up solutions for business.</h1>
+                        <p>VRLA BATTERIES ARE IN STOCK FOR IMMEDIATE DELIVERY.</p>
+                    </div>
+                </div>
+                <div class="nav">
+                    <label for="slide-3" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+                    <label for="slide-2" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="slide-2"/>
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="./imgs/section-2-bg.png" align="right"/>
+                    <div class="content-wrapper">
+                        <h2>We provide innovative @ SLIDE #2</h2>
+                        <h1>Battery back-up solutions for business.</h1>
+                        <p>VRLA BATTERIES ARE IN STOCK FOR IMMEDIATE DELIVERY.</p>
+                    </div>
+                </div>
+                <div class="nav">
+                    <label for="slide-1" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+                    <label for="slide-3" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="slide-3"/>
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="./imgs/section-3-bg.png" align="right"/>
+                    <div class="content-wrapper">
+                        <h2>We provide innovative @ SLIDE #3</h2>
+                        <h1>Battery back-up solutions for business.</h1>
+                        <p>VRLA BATTERIES ARE IN STOCK FOR IMMEDIATE DELIVERY.</p>
+                    </div>
+                </div>
+                <div class="nav">
+                    <label for="slide-2" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+                    <label for="slide-1" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+                </div>
+            </li>
+
+            <li class="nav-dots">
+                <label for="slide-1" class="nav-dot" id="slide-dot-1"></label>
+                <label for="slide-2" class="nav-dot" id="slide-dot-2"></label>
+                <label for="slide-3" class="nav-dot" id="slide-dot-3"></label>
+            </li>
+        </ul>
     </div>
 </section>
 <footer>
