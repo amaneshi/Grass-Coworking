@@ -110,7 +110,7 @@ div, p, input, button {
     padding: 0 10px;
 }
 
-.header-bottom {
+.header-navigation {
     background-color: rgba(0, 0, 0, 0.85);
     position: absolute;
     right: 0;
