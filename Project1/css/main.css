@@ -1,3 +1,4 @@
+/*BEGIN General Rules*/
 * {
     padding: 0;
     margin: 0;
@@ -19,25 +20,6 @@ div, p, input, button {
     box-sizing: border-box;
 }
 
-.social-icons a:hover {
-    color: white;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-}
-
-.header-top {
-    background-color: #ededed;
-    padding: 10px 0;
-}
-
-.header-center {
-    background-color: white;
-    padding: 29px 0;
-}
-
 .content-wrapper {
     max-width: 1115px;
     margin: 0 auto;
@@ -51,15 +33,17 @@ div, p, input, button {
     float: right;
 }
 
-.city {
-    font-family: Hind-Regular, 'Sans Serif', cursive;
-    background: #212121;
-    color: #fff;
-    padding: 8px 16px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    cursor: pointer;
+.inline-menu > li, .inline {
+    display: inline-block;
+    font-size: 0;
+}
+
+/*BEGIN General Rules*/
+
+/*BEGIN Header Top Block*/
+.header-top {
+    background-color: #ededed;
+    padding: 10px 0;
 }
 
 .contact-info > div {
@@ -72,9 +56,19 @@ div, p, input, button {
     font-size: 18px;
 }
 
-.inline-menu > li, .inline {
-    display: inline-block;
-    font-size: 0;
+.city {
+    font-family: Hind-Regular, 'Sans Serif', cursive;
+    background: #212121;
+    color: #fff;
+    padding: 8px 16px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.hind-semibold {
+    font-family: Hind-Semibold, sans-serif, cursive;
 }
 
 .social-icons {
@@ -87,13 +81,26 @@ div, p, input, button {
     color: #2e2e2e;
 }
 
+.social-icons a:hover {
+    color: white;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+/*END Header Top Block*/
+
+/*BEGIN Header Middle Block*/
+.header-center {
+    background-color: white;
+    padding: 29px 0;
+}
+
 .header-attributes > div {
     display: inline-block;
     margin: 20px 0 10px 20px;
-}
-
-.hind-semibold {
-    font-family: Hind-Semibold, sans-serif, cursive;
 }
 
 .header-attributes p:first-child {
@@ -116,6 +123,9 @@ div, p, input, button {
     padding: 0 10px;
 }
 
+/*END Header Middle Block*/
+
+/*BEGIN Header Navigation Block*/
 .header-navigation {
     background-color: rgba(0, 0, 0, 0.85);
     position: absolute;
@@ -133,45 +143,6 @@ div, p, input, button {
     position: relative;
     font-family: Hind-Medium, 'Sans Serif', cursive;
     padding: 24px 13px;
-}
-
-.mobile-menu {
-    font-size: 24px;
-    margin-top: 20px;
-    display: none;
-    cursor: pointer;
-}
-
-.search {
-    color: white;
-    font-size: 20px;
-    padding: 22px 0;
-    cursor: pointer;
-}
-
-@font-face {
-    font-family: Hind-Light;
-    src: url(../fonts/hind/Hind-Light.ttf);
-}
-
-@font-face {
-    font-family: Hind-Regular;
-    src: url(../fonts/hind/Hind-Regular.ttf);
-}
-
-@font-face {
-    font-family: Hind-Bold;
-    src: url(../fonts/hind/Hind-Bold.ttf);
-}
-
-@font-face {
-    font-family: Hind-Medium;
-    src: url(../fonts/hind/Hind-Medium.ttf);
-}
-
-@font-face {
-    font-family: Hind-Semibold;
-    src: url(../fonts/hind/Hind-Semibold.ttf);
 }
 
 .navigation .current-page a:before {
@@ -198,142 +169,31 @@ div, p, input, button {
     left: 0;
 }
 
-.section-slider {
-    background: #000;
+.mobile-menu {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 15px;
+    display: none;
+    cursor: pointer;
 }
+
+.search {
+    color: white;
+    font-size: 20px;
+    padding: 22px 0;
+    cursor: pointer;
+}
+
+/*END Header Navigation Block*/
 
 .section-middle {
     position: relative;
 }
 
-.section-quote {
-    background: #BD2631;
-    color: white;
-    padding: 31px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+/*BEGIN Slider related rules*/
+.section-slider {
+    background: #000;
 }
-
-.quote-decs p:first-child {
-    font-family: Hind-Light, sans-serif;
-    font-size: 30px;
-    line-height: 30px;
-}
-
-.quote-decs p:last-child {
-    font-family: Hind-Light, sans-serif;
-    font-size: 24px;
-}
-
-.quote-button p {
-    font-family: Hind-Bold, sans-serif;
-    background: white;
-    color: black;
-    padding: 14px 30px;
-    margin: 7px 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-.details {
-    background: black;
-    font-size: 0;
-}
-
-.details-text {
-    position: absolute;
-    left: 100px;
-    right: 96px;
-    top: 160px;
-}
-
-.details-text h3 {
-    margin-bottom: 28px;
-    color: #bd2631;
-    font-size: 30px;
-    font-family: Hind-Regular, sans-serif;
-}
-
-.details-text p {
-    color: white;
-    line-height: 2;
-    font-family: Hind-Light, sans-serif;
-
-}
-
-.details > div {
-    width: 100%;
-}
-
-.details-main {
-    width: 50%;
-    position: relative;
-    overflow: hidden;
-    height: 455px;
-}
-
-.image-tile,
-.icon-tile {
-    width: 50%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-}
-
-/*BEGIN Chess Desc Top Row BackGrounds*/
-.top-left {
-    background: black url(./../imgs/img11.png) no-repeat center center/cover;
-}
-
-.top-right .image-tile {
-    background: black url(./../imgs/img12.png) no-repeat center center/cover;
-    left: 0;
-}
-
-.top-right .icon-tile {
-    background: white url(./../imgs/img13.png) no-repeat center center;
-    right: 0;
-}
-
-/*END Chess Desc Top Row BackGrounds*/
-
-/*BEGIN Chess Desc Middle Row BackGrounds*/
-.middle-left .image-tile {
-    background: black url(./../imgs/img21.png) no-repeat center center/cover;
-    left: 0;
-}
-
-.middle-left .icon-tile {
-    background: white url(./../imgs/img22.png) no-repeat center center;
-    right: 0;
-}
-
-.middle-right {
-    background: black url(./../imgs/img23.png) no-repeat center center/cover;
-}
-
-/*END Chess Desc Middle Row BackGrounds*/
-
-/*BEGIN Chess Desc Bottom Row BackGrounds*/
-.bottom-left {
-    background: black url(./../imgs/img31.png) no-repeat center center/cover;
-}
-
-.bottom-right .icon-tile {
-    background: red url(./../imgs/img32.png) no-repeat center center;
-    left: 0;
-}
-
-.bottom-right .image-tile {
-    background: black url(./../imgs/img33.png) no-repeat center center/cover;
-    right: 0;
-}
-
-/*END Chess Desc Bottom Row BackGrounds*/
 
 .slides {
     padding: 0;
@@ -369,8 +229,6 @@ div, p, input, button {
     display: block;
     position: absolute;
 
-    transform: translateX(-1000px);
-
     transition: all .7s ease-in-out;
 }
 
@@ -379,7 +237,7 @@ div, p, input, button {
 }
 
 .nav label {
-    width: 136px;
+    width: 9.71vw;
     display: none;
     position: absolute;
 
@@ -392,7 +250,7 @@ div, p, input, button {
     color: #FFF;
     font-size: 70px;
     text-align: center;
-    top: calc(50% - 80px);
+    top: calc(50% - 5.71vw);
     /*background-color: rgba(255, 255, 255, .3);*/
     text-shadow: 0 0 15px rgb(119, 119, 119);
 }
@@ -412,8 +270,6 @@ div, p, input, button {
 input:checked + .slide-container .slide {
     opacity: 1;
 
-    transform: translateX(0);
-
     transition: opacity 1s ease-in-out;
 }
 
@@ -423,7 +279,7 @@ input:checked + .slide-container .nav label {
 
 .nav-dots {
     width: 100%;
-    bottom: 20px;
+    bottom: 18%;
     height: 20px;
     display: block;
     position: absolute;
@@ -431,7 +287,7 @@ input:checked + .slide-container .nav label {
 }
 
 .nav-dots .nav-dot {
-    top: -5px;
+    top: 0;
     width: 20px;
     height: 20px;
     margin: 0 10px;
@@ -452,30 +308,199 @@ input#slide-3:checked ~ .nav-dots label#slide-dot-3 {
     background: rgba(255, 255, 255, .8);
 }
 
-.slide h2 {
+.slide-text {
+    position: absolute;
+    top: calc(50% - 6.5vw);
+}
+
+.slide-text h2 {
     color: red;
     font-size: 32px;
     font-family: Hind-Bold, 'Sans Serif Bold', cursive;
-    position: absolute;
-    top: calc(50% - 91px);
+    line-height: 1.5;
 }
 
-.slide h1 {
+.slide-text h1 {
     color: #fff;
     font-size: 43px;
     font-family: Hind-Semibold, 'Sans Serif', cursive;
-    position: absolute;
-    top: calc(50% - 53px);
+    line-height: 1.1;
 }
 
-.slide p {
+.slide-text p {
     color: #fff;
     text-transform: uppercase;
     font-size: 24px;
     font-family: Hind-Medium, 'Sans Serif', cursive;
-    position: absolute;
-    top: calc(50% + 10px);
+    line-height: 1.8;
 }
+
+@keyframes slide-1 {
+    0%, 30% {
+        opacity: 1;
+    }
+    36%, 100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slide-2 {
+    0%, 30% {
+        opacity: 0;
+    }
+    36%, 63% {
+        opacity: 1;
+    }
+    69%, 100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slide-3 {
+    0%, 63% {
+        opacity: 0;
+    }
+    69%, 100% {
+        opacity: 1;
+    }
+}
+
+/*END Slider related rules*/
+
+/*BEGIN Quote Section Block*/
+.section-quote {
+    background: #BD2631;
+    color: white;
+    padding: 31px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.quote-decs p:first-child {
+    font-family: Hind-Light, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.quote-decs p:last-child {
+    font-family: Hind-Light, sans-serif;
+    font-size: 24px;
+}
+
+.quote-button p {
+    font-family: Hind-Bold, sans-serif;
+    background: white;
+    color: black;
+    padding: 14px 30px;
+    margin: 7px 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*END Quote Section Block*/
+
+/*BEGIN Chess Desk rules*/
+.details {
+    background: black;
+    font-size: 0;
+}
+
+.details-text {
+    position: absolute;
+    left: 7.14vw;
+    right: 7.14vw;
+    top: 11.43vw;
+}
+
+.details-text h3 {
+    margin-bottom: 28px;
+    color: #bd2631;
+    font-size: 30px;
+    font-family: Hind-Regular, sans-serif;
+}
+
+.details-text p {
+    color: white;
+    line-height: 2;
+    font-family: Hind-Light, sans-serif;
+
+}
+
+.details > div {
+    width: 100%;
+}
+
+.details-main {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    height: 32.5vw;
+}
+
+.image-tile,
+.icon-tile {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+/*END Chess Desk rules*/
+
+/*BEGIN Chess Desk Top Row BackGrounds*/
+.top-left {
+    background: black url(./../imgs/img11.png) no-repeat center center/cover;
+}
+
+.top-right .image-tile {
+    background: black url(./../imgs/img12.png) no-repeat center center/cover;
+    left: 0;
+}
+
+.top-right .icon-tile {
+    background: white url(./../imgs/img13.png) no-repeat center center;
+    right: 0;
+}
+
+/*END Chess Desk Top Row BackGrounds*/
+
+/*BEGIN Chess Desk Middle Row BackGrounds*/
+.middle-left .image-tile {
+    background: black url(./../imgs/img21.png) no-repeat center center/cover;
+    left: 0;
+}
+
+.middle-left .icon-tile {
+    background: white url(./../imgs/img22.png) no-repeat center center;
+    right: 0;
+}
+
+.middle-right {
+    background: black url(./../imgs/img23.png) no-repeat center center/cover;
+}
+
+/*END Chess Desk Middle Row BackGrounds*/
+
+/*BEGIN Chess Desk Bottom Row BackGrounds*/
+.bottom-left {
+    background: black url(./../imgs/img31.png) no-repeat center center/cover;
+}
+
+.bottom-right .icon-tile {
+    background: red url(./../imgs/img32.png) no-repeat center center;
+    left: 0;
+}
+
+.bottom-right .image-tile {
+    background: black url(./../imgs/img33.png) no-repeat center center/cover;
+    right: 0;
+}
+
+/*END Chess Desk Bottom Row BackGrounds*/
 
 footer {
     margin: 0;
