@@ -31,7 +31,8 @@ div, p, input, button {
 
 .promo-bar {
     background: #000;
-    text-align: right;
+    text-align: center;
+    position: relative;
 }
 
 .bar-text {
@@ -42,17 +43,19 @@ div, p, input, button {
     font-size: 20px;
     color: #fff;
     transform: scaleX(1.33);
-    width: 90%;
 }
 
 .bar-close {
     cursor: pointer;
     width: 50px;
-    padding-right: 60px;
+    /*padding-right: 60px;*/
+    position: absolute;
+    top: 18px;
+    right: 10px;
 }
 
 .header {
-    background: rgba(255, 255, 255, .7);
+    background: rgba(255, 255, 255, .3);
     position: absolute;
     left: 0;
     right: 0;
@@ -524,6 +527,7 @@ iframe {
 
 footer {
     background: #0d6cb6;
+    padding: 0 5vw;
 }
 
 .footer-block {
