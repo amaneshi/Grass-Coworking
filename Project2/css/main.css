@@ -1,0 +1,652 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 0;
+    font-family: OpenSansRegular, sans-serif;
+}
+
+div, p, input, button {
+    box-sizing: border-box;
+}
+
+.clearfix:after,
+.clearfix:before {
+    display: table;
+    content: '';
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.content {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.promo-bar {
+    background: #000;
+    text-align: right;
+}
+
+.bar-text {
+    padding: 20px 0;
+    font-family: OpenSansBold, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    transform: scaleX(1.33);
+    width: 90%;
+}
+
+.bar-close {
+    cursor: pointer;
+    width: 50px;
+    padding-right: 60px;
+}
+
+.header {
+    background: rgba(255, 255, 255, .7);
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.logo-block {
+    padding: 10px 0;
+    float: left;
+    width: 43%;
+}
+
+.logo-block img:first-child {
+    border-right: black 1px solid;
+    padding-right: 20px;
+}
+
+.logo-block img:last-child {
+    padding: 6px 16px;
+}
+
+.navigation {
+    font-family: OpenSansBold, sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #fffefe;
+}
+
+.navigation li:first-child {
+    padding-left: 4.3vw;
+}
+
+.navigation li {
+    display: inline-block;
+    font-size: 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    display: block;
+    font-family: OpenSansBold, sans-serif;
+    padding: 25px 15px;
+}
+
+.navigation a:hover {
+    color: black;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.mobile-menu {
+    color: #fff;
+    font-size: 24px;
+    display: none;
+    cursor: pointer;
+}
+
+.shop-cart {
+    text-align: left;
+    width: 10%;
+    float: right;
+}
+
+.shop-cart i {
+    color: black;
+    font-size: 45px;
+    padding-top: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.slide {
+    background: black url("./../imgs/top-slide.png") center center / cover no-repeat;
+    height: 46.9vw;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-content {
+
+}
+
+.main-text {
+    font-family: BRUSHSTRIKE, sans-serif;
+    font-size: 7.8vw;
+    text-align: center;
+    transform: scaleX(0.966);
+}
+
+.sub-main-text {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3.1vw;
+    text-align: center;
+    margin-top: -25px;
+    transform: scaleX(1.25);
+}
+
+.arrows {
+    position: relative;
+}
+
+.arrows i {
+    font-size: 40px;
+    position: absolute;
+}
+
+.arrows i:first-child {
+    right: 18%;
+    padding-right: 33px;
+    border-right: black 1px solid;
+}
+
+.arrows i:last-child {
+    right: 14%;
+    padding-left: 33px;
+}
+
+.features-section {
+    background: white;
+}
+
+.features ul {
+    height: 10.5vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 45px;
+}
+
+.features li {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features .features-title {
+    padding: 0;
+    width: 22vw;
+}
+
+.features-title .feature-text {
+    font-family: OpenSansExtraBold, sans-serif;
+    font-size: 2.6vw;
+    text-transform: uppercase;
+    background-image: -webkit-linear-gradient(left, #2c336a, #2b7fbc); /* For Chrome and Safari */
+    background-image: -moz-linear-gradient(left, #2c336a, #2b7fbc); /* For old Fx (3.6 to 15) */
+    background-image: -ms-linear-gradient(left, #2c336a, #2b7fbc); /* For pre-releases of IE 10*/
+    background-image: -o-linear-gradient(left, #2c336a, #2b7fbc); /* For old Opera (11.1 to 12.0) */
+    background-image: linear-gradient(to right, #2c336a, #2b7fbc); /* Standard syntax; must be last */
+    color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    transform: scaleX(1.13);
+}
+
+.feature-text {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.features h5 {
+    font-size: 1vw;
+    font-family: OpenSansExtraBold, sans-serif;
+    color: black;
+}
+
+.features h6 {
+    font-size: 1vw;
+    color: black;
+}
+
+.advantages {
+    background: black;
+    height: 11vw;
+    min-height: 136px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0 100px;
+}
+
+.advantages-item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantages img {
+    padding-right: 35px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.advantages h3 {
+    font-family: OpenSansExtraBold, sans-serif;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+}
+
+.changer-section {
+    background: #f3f3f3;
+    padding: 50px 0;
+}
+
+.charger-block {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+.text-block {
+    width: 43%;
+    display: inline-block;
+    padding-left: 90px;
+}
+
+.text-block h4 {
+    font-family: OpenSansExtraBold, sans-serif;
+    font-size: 3.1vw;
+    text-transform: uppercase;
+    background-image: -webkit-linear-gradient(left, #2c336a, #2b7fbc); /* For Chrome and Safari */
+    background-image: -moz-linear-gradient(left, #2c336a, #2b7fbc); /* For old Fx (3.6 to 15) */
+    background-image: -ms-linear-gradient(left, #2c336a, #2b7fbc); /* For pre-releases of IE 10*/
+    background-image: -o-linear-gradient(left, #2c336a, #2b7fbc); /* For old Opera (11.1 to 12.0) */
+    background-image: linear-gradient(to right, #2c336a, #2b7fbc); /* Standard syntax; must be last */
+    color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.text-block p {
+    font-family: OpenSansBold, sans-serif;
+    font-size: 20px;
+    color: #333333;
+    padding: 7px 0;
+}
+
+.text-block ul {
+    padding: 30px 0;
+    list-style: none;
+}
+
+.text-block li {
+    font-family: OpenSansRegular, sans-serif;
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 1.7;
+}
+
+.promo-discount {
+    color: #056cb6;
+    font-family: OpenSansRegular, sans-serif;
+    font-size: 34px;
+    border-left: #e5e5e5 solid 7px;
+    padding: 15px 19px;
+    line-height: 1.2;
+}
+
+.promo-button {
+    color: black;
+    font-family: MyriadProSemiBold, sans-serif;
+    font-size: 33px;
+    text-transform: uppercase;
+    margin: 35px 0;
+    padding: 1.8vw 4.5vw;
+    border: #94bddb solid 4px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 60px;
+    display: inline-block;
+}
+
+.small-logo {
+    padding: 14px 30px;
+}
+
+iframe {
+    width: 50vw;
+    height: 28.5vw;
+    border: 0;
+}
+
+.video-frame {
+    margin: auto;
+}
+
+.logos-slider, .featured-slider {
+    max-width: 1140px;
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 130px 0;
+}
+
+.slider-title, .featured-title {
+    font-family: OpenSansExtraBold, sans-serif;
+    font-size: 3.1vw;
+    display: inline-block;
+    text-transform: uppercase;
+    background-image: -webkit-linear-gradient(left, #2c336a, #2b7fbc); /* For Chrome and Safari */
+    background-image: -moz-linear-gradient(left, #2c336a, #2b7fbc); /* For old Fx (3.6 to 15) */
+    background-image: -ms-linear-gradient(left, #2c336a, #2b7fbc); /* For pre-releases of IE 10*/
+    background-image: -o-linear-gradient(left, #2c336a, #2b7fbc); /* For old Opera (11.1 to 12.0) */
+    background-image: linear-gradient(to right, #2c336a, #2b7fbc); /* Standard syntax; must be last */
+    color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    margin: 0 auto;
+}
+
+.logo-slide ul, .featured-slide ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.nav-dots {
+    margin: auto;
+    padding: 32px 0 50px;
+}
+
+.nav-dot {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: rgb(75, 146, 200);
+}
+
+.nav-dot:first-child {
+    background-color: rgb(21, 113, 185);
+}
+
+.instagram-block {
+    background: black url("./../imgs/instagram-bg.png") center center / cover no-repeat;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 6.7vw 0;
+}
+
+.section-title {
+    font-family: OpenSansExtraBold, sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    max-width: 1000px;
+}
+
+.gallery img {
+    margin-bottom: 20px;
+}
+
+.product-types {
+    background: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6.8vw 15px;
+}
+
+.product-title {
+    position: relative;
+    height: 500px;
+}
+
+.product-title span {
+    font-family: ChunkFiveExtraBold, sans-serif;
+    font-size: 58px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.pt-bg-1 {
+    background: black url("./../imgs/liner-logo-1.png") center center / cover no-repeat;
+}
+
+.pt-bg-2 {
+    background: black url("./../imgs/liner-logo-2.png") center center / cover no-repeat;
+}
+
+.pt-bg-3 {
+    background: black url("./../imgs/liner-logo-3.png") center center / cover no-repeat;
+}
+
+.product-button {
+    background: #056ab2;
+    text-align: center;
+    padding: 7px 0;
+}
+
+.product-button span {
+    font-family: OpenSansBold, sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.video-section {
+    background: black url("./../imgs/video-bg.png") center center / cover no-repeat;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15vw 0;
+}
+
+.video-section-title {
+    font-family: OpenSansExtraBold, sans-serif;
+    font-size: 3.1vw;
+    text-transform: uppercase;
+}
+
+.video-section-subtitle {
+    font-family: OpenSansBold, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 0 50px;
+}
+
+.featured-slider {
+    padding: 92px 0;
+}
+
+.featured-title {
+    padding: 0;
+}
+
+.featured-slide {
+    padding: 0;
+}
+
+.featured-slide ul {
+    padding: 115px 0 40px;
+}
+
+footer {
+    background: #0d6cb6;
+}
+
+.footer-block {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
+    height: 20.3vw;
+}
+
+.main-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: white solid 1px;
+    padding-bottom: 5px;
+}
+
+.main-footer-1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 45%;
+    padding-bottom: 5px;
+}
+
+.subscribe-column {
+    width: 52%;
+}
+
+.subscribe-column h5 {
+    font-family: OpenSansBold, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.subscribe-column h6 {
+    font-family: OpenSansRegular, sans-serif;
+    font-size: 14px;
+}
+
+.search-box {
+    border: white 1px solid;
+    text-align: right;
+    margin: 26px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.search-button {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    background: white;
+}
+
+.search-button i {
+    font-size: 30px;
+    color: #0d6cb6;
+    cursor: pointer;
+}
+
+.site-links-column {
+    list-style: none;
+    width: 140px;
+}
+
+.site-links-column li {
+    cursor: pointer;
+    font-family: OpenSansRegular, sans-serif;
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+
+.contact-info-column {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 49%;
+}
+
+.contact-info-column h5 {
+    font-family: OpenSansBold, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.contact-info-column p {
+    font-family: OpenSansRegular, sans-serif;
+    font-size: 13px;
+}
+
+.location-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.copyright {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.copyright-info {
+    font-family: OpenSansRegular, sans-serif;
+    font-size: 13px;
+}
+
+.social-links i {
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 30px;
+}

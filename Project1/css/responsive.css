@@ -44,7 +44,7 @@
     }
 
     .details-text {
-        top: calc(11.43vw / 2);
+        /*top: calc(11.43vw / 2);*/
     }
 
     .nav-dots .nav-dot {

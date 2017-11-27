@@ -1,0 +1,229 @@
+@font-face {
+			font-family: "OpenSansRegular";
+			src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+			src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+			url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "OpenSansLight";
+			src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+			src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+			url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "OpenSansItalic";
+			src: url("../fonts/OpenSansItalic/OpenSansItalic.eot");
+			src: url("../fonts/OpenSansItalic/OpenSansItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"),
+			url("../fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "OpenSansBold";
+			src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+			src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+			url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "OpenSansExtraBold";
+			src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot");
+			src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"),
+			url("../fonts/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "OpenSansExtraBoldItalic";
+			src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot");
+			src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"),
+			url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "OpenSansBoldItalic";
+			src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot");
+			src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff") format("woff"),
+			url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "OpenSansRegularItalic";
+			src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot");
+			src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.woff") format("woff"),
+			url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "OpenSansSemiBold";
+			src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+			src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+			url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "OpenSansSemiBoldItalic";
+			src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot");
+			src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff") format("woff"),
+			url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+	
+	
+	
+	
+	
+	@font-face {
+			font-family: "BebasRegular";
+			src: url("../fonts/BebasRegular/BebasRegular.eot");
+			src: url("../fonts/BebasRegular/BebasRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BebasRegular/BebasRegular.woff") format("woff"),
+			url("../fonts/BebasRegular/BebasRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "BebasBook";
+			src: url("../fonts/BebasBook/BebasBook.eot");
+			src: url("../fonts/BebasBook/BebasBook.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BebasBook/BebasBook.woff") format("woff"),
+			url("../fonts/BebasBook/BebasBook.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "BebasBold";
+			src: url("../fonts/BebasBold/BebasBold.eot");
+			src: url("../fonts/BebasBold/BebasBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BebasBold/BebasBold.woff") format("woff"),
+			url("../fonts/BebasBold/BebasBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "BebasLight";
+			src: url("../fonts/BebasLight/BebasLight.eot");
+			src: url("../fonts/BebasLight/BebasLight.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BebasLight/BebasLight.woff") format("woff"),
+			url("../fonts/BebasLight/BebasLight.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "BebasThin";
+			src: url("../fonts/BebasThin/BebasThin.eot");
+			src: url("../fonts/BebasThin/BebasThin.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BebasThin/BebasThin.woff") format("woff"),
+			url("../fonts/BebasThin/BebasThin.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+	
+	
+	
+	
+	@font-face {
+			font-family: "MyriadProRegular";
+			src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+			src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+			url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "MyriadProBold";
+			src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+			src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+			url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "MyriadProItalic";
+			src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
+			src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+			url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "MyriadProSemiBold";
+			src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+			src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+			url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "MyriadProBoldItalic";
+			src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot");
+			src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"),
+			url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "MyriadProSemiBoldItalic";
+			src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
+			src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"),
+			url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+	
+	
+	
+	
+	@font-face {
+			font-family: "ChunkFiveExtraBold";
+			src: url("../fonts/ChunkFiveExtraBold/ChunkFiveExtraBold.eot");
+			src: url("../fonts/ChunkFiveExtraBold/ChunkFiveExtraBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/ChunkFiveExtraBold/ChunkFiveExtraBold.woff") format("woff"),
+			url("../fonts/ChunkFiveExtraBold/ChunkFiveExtraBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}

@@ -314,7 +314,7 @@ input#slide-3:checked ~ .nav-dots label#slide-dot-3 {
 }
 
 .slide-text h2 {
-    color: red;
+    color: #BD2631;
     font-size: 32px;
     font-family: Hind-Bold, 'Sans Serif Bold', cursive;
     line-height: 1.5;
@@ -411,9 +411,11 @@ input#slide-3:checked ~ .nav-dots label#slide-dot-3 {
 
 .details-text {
     position: absolute;
-    left: 7.14vw;
-    right: 7.14vw;
-    top: 11.43vw;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 11.43vw 7.5vw;
 }
 
 .details-text h3 {
@@ -491,7 +493,7 @@ input#slide-3:checked ~ .nav-dots label#slide-dot-3 {
 }
 
 .bottom-right .icon-tile {
-    background: red url(./../imgs/img32.png) no-repeat center center;
+    background: #BD2631 url(./../imgs/img32.png) no-repeat center center;
     left: 0;
 }
 
