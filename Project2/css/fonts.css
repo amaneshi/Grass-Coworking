@@ -1,4 +1,11 @@
 @font-face {
+			font-family: "BrushStrike";
+			src: url("../fonts/BrushStrike/BrushStrike.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+@font-face {
 			font-family: "OpenSansRegular";
 			src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
 			src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
