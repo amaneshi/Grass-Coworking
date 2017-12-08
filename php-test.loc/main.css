@@ -1,0 +1,83 @@
+* {
+    font-size: 14px;
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+}
+
+div, p, input, button, form, fieldset {
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 1000px;
+    height: 95vh;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5vh 0;
+}
+
+.message-list {
+    width: 50%;
+    height: 100%;
+    border: black solid 3px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.message-item {
+    border: black solid 2px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.message-time,
+.message-nick {
+    display: inline-block;
+}
+
+.message-nick {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.message-text {
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.input-form {
+    width: 45%;
+    border: black solid 3px;
+    padding: 10px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nick-input,
+.text-input {
+    display: flex;
+    padding: 10px;
+}
+
+.nick-input > *,
+.text-input > * {
+    width: 50%;
+    font-weight: bold;
+}
+
+.submit-button {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
